@@ -52,11 +52,11 @@ public class MyDialog {
 
     }
 //    自定义头部图像：
-    public static void CustomPicture(Activity activity, Bitmap tup){
+    public static void CustomPicture(Activity activity){
         new SweetAlertDialog(activity, SweetAlertDialog.CUSTOM_IMAGE_TYPE)
                 .setTitleText("Sweet!")
                 .setContentText("Here's a custom image.")
-                .setCustomImage(tup)
+                .setCustomImage(R.drawable.ic_launcher)
                 .show();
     }
 //    显示成功完成样式：
